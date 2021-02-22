@@ -1,0 +1,6 @@
+.menu__list-item{
+  margin-right: 18px;
+}
+.menu__list-item:last-child{
+  margin-right: 0;
+}
