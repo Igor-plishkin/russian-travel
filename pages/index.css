@@ -37,4 +37,7 @@
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__copy/footer__copy.css');
 @import url('../blocks/menu/__link/_place/menu__link_place_footer.css');
-
+@import url('../blocks/logo/logo.css');
+@import url('../blocks/menu/__links/_place/menu__links_place_footer.css');
+@import url('../blocks/menu/_place/menu_place_footer.css');
+@import url('../blocks/menu/__list-item/_place/menu__list-item_place_footer.css');

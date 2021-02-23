@@ -4,4 +4,28 @@
   margin: 0 auto;
   min-height: 740px;
   background-image: url('../../images/cover.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 1230px){
+  .cover{
+    min-height: 640px;
+  }
+}
+@media screen and (max-width: 1000px){
+  .cover{
+    min-height: 480px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 680px){
+  .cover{
+    min-height: 320px;
+  }
+}
+@media screen and (max-width: 480px){
+  .cover{
+    min-height: 200px;
+  }
 }

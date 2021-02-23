@@ -5,3 +5,25 @@
   font-size: 72px;
   line-height: 76px;
 }
+@media screen and (max-width: 1230px){
+  .place__title{
+    width: 440px;
+    margin-right: 32px;
+  }
+}
+@media screen and (max-width: 1000px){
+  .place__title{
+    width: 340px;
+    margin-right: 28px;
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+@media screen and (max-width: 767px){
+  .place__title{
+    margin-right: 0;
+    width: 100%;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}

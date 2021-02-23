@@ -5,3 +5,20 @@
   max-width: 690px;
   margin: 0;
 }
+@media screen and (max-width: 880px){
+  .intro__title{
+    max-width: 720px;
+  }
+}
+@media screen and (max-width: 767px){
+  .intro__title{
+    font-size: 44px;
+    line-height: 48px;
+  }
+}
+@media screen and (max-width: 490px){
+  .intro__title{
+    font-size: 32px;
+    line-height: 35px;
+  }
+}

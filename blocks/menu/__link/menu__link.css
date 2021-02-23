@@ -8,3 +8,9 @@
 .menu__link:hover{
   opacity: .8;
 }
+@media screen and (max-width: 490px){
+  .menu__link{
+    font-size: 18px;
+    line-height: 20px;
+  }
+}

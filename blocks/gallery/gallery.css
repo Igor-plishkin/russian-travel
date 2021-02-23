@@ -3,7 +3,37 @@
   max-width: 1184px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 284px 284px 284px 284px;
-  grid-template-rows: 213px 213px;
+  grid-template-columns: repeat(4, 284px);
+  grid-template-rows: repeat(2, 213px);
   gap: 16px;
+}
+@media screen and (max-width: 1230px){
+  .gallery{
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(4, 225px);
+    max-width: 928px;
+  }
+}
+@media screen and (max-width: 1000px){
+  .gallery{
+    grid-template-columns: repeat(2, 352px);
+    grid-template-rows: repeat(6, 264px);
+    max-width: 720px;
+    padding-top: 88px;
+  }
+}
+@media screen and (max-width: 767px){
+  .gallery{
+    grid-template-columns: repeat(2, 300px);
+    grid-template-rows: repeat(6, 225px);
+    max-width: 616px;
+  }
+}
+@media screen and (max-width: 680px){
+  .gallery{
+    grid-template-columns: repeat(1, 288px);
+    grid-template-rows: repeat(12, 216px);
+    max-width: 288px;
+    padding-top: 64px;
+  }
 }

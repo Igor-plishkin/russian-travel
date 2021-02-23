@@ -3,3 +3,18 @@
   max-width: 1184px;
   margin: 0 auto;
 }
+@media screen and (max-width: 1230px){
+  .header{
+    padding: 28px 46px 0;
+  }
+}
+@media screen and (max-width: 880px){
+  .header{
+    padding: 28px 24px 0;
+  }
+}
+@media screen and (max-width: 490px){
+  .header{
+    padding: 16px 16px 0;
+  }
+}
