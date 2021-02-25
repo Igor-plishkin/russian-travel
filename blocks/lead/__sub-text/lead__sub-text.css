@@ -3,8 +3,10 @@
   line-height: 14px;
   margin: 8px 0 0 0;
   align-self: flex-start;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
 }
-@media screen and (max-width: 880px){
+@media screen and (max-width: 768px){
   .lead__sub-text{
     margin-left: 24px;
   }

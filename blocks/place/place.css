@@ -1,6 +1,9 @@
 .place{
   margin-top: 80px;
 }
+.place:first-child{
+  margin-top: 0;
+}
 @media screen and (max-width: 1000px){
   .place{
     margin-top: 72px;

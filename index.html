@@ -6,18 +6,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="pages/index.css">
-  <title>Document</title>
+  <title>Путешествия по России</title>
 </head>
 
 <body class="page">
   <header class="header">
-    <nav class="menu">
-      <a href="#" class="menu__link menu__link_type_logo" target="_blank"><img class="logo" src="images/logo.svg" alt="Россия"></a>
-      <ul class="menu__links">
-        <li class="menu__list-item"><a class="menu__link menu__link_type_active" href="#" target="_self">Ru</a></li>
-        <li class="menu__list-item"><a class="menu__link" href="#" target="_self">En</a></li>
+    <div class="header__menu">
+      <a href="#" class="header__menu-link" target="_blank"><img class="logo" src="images/logo.svg" alt="Россия"></a>
+      <ul class="header__menu-links">
+        <li class="header__menu-item"><a class="header__menu-link header__menu-link_active" href="#" target="_self">Ru</a></li>
+        <li class="header__menu-item"><a class="header__menu-link" href="#" target="_self">En</a></li>
       </ul>
-    </nav>
+    </div>
   </header>
   <main>
     <section class="lead">
@@ -35,11 +35,11 @@
         мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной
         стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
       <ul class="intro__list">
-        <li class="intro__list-item">Часовых поясов 11</li>
-        <li class="intro__list-item">Объектов природного наследия ЮНЕСКО 12</li>
-        <li class="intro__list-item">Объектов культурного наследия ЮНЕСКО 16</li>
-        <li class="intro__list-item">Природных заповедников 105</li>
-        <li class="intro__list-item">Аэропортов 241</li>
+        <li class="intro__list-item">Часовых поясов <span class="intro__span-accent">11</span></li>
+        <li class="intro__list-item">Объектов природного наследия ЮНЕСКО <span class="intro__span-accent">12</span></li>
+        <li class="intro__list-item">Объектов культурного наследия ЮНЕСКО <span class="intro__span-accent">16</span></li>
+        <li class="intro__list-item">Природных заповедников <span class="intro__span-accent">105</span></li>
+        <li class="intro__list-item">Аэропортов <span class="intro__span-accent">241</span></li>
       </ul>
     </section>
     <section class="gallery">
@@ -57,9 +57,9 @@
       <img class="gallery__item" src="images/gallery-ergaki.jpg" alt="ергаки">
     </section>
     <section class="places">
-      <div class="place">
+      <article class="place">
         <div class="place__header">
-          <h3 class="place__title">Куршская коса</h3>
+          <h4 class="place__title">Куршская коса</h4>
           <div class="place__website">
             <p class="place__url">URL</p>
             <a class="place__link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
@@ -77,10 +77,10 @@
               стального, прохладного моря.</p>
           </div>
         </div>
-      </div>
-      <div class="place">
+      </article>
+      <article class="place">
         <div class="place__header">
-          <h3 class="place__title">Кольский</h3>
+          <h4 class="place__title">Кольский</h4>
           <div class="place__website">
             <p class="place__url">URL</p>
             <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
@@ -100,33 +100,10 @@
               в Мурманск.</p>
           </div>
         </div>
-      </div>
-      <div class="place">
+      </article>
+      <article class="place">
         <div class="place__header">
-          <h3 class="place__title">Кольский</h3>
-          <div class="place__website">
-            <p class="place__url">URL</p>
-            <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
-              target="_blank">National Geographic</a>
-          </div>
-        </div>
-        <div class="place__content">
-          <img class="place__img" src="images/place-kolsky.jpg" alt="Кольский">
-          <div class="place__text-wrapper">
-            <p class="place__text">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на юг
-              —
-              тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.</p>
-            <p class="place__text">Возможно, вы смотрели Звягинцева и даже слышали историю арктического фестиваля в
-              Териберке. Возможно, слово «Хибины» не осталось под снегом школьных воспоминаний об уроках географии.
-              Возможно, вы не интересовались пронизывающей земную кору сверхглубокой скважиной, а от апатитов вас давно
-              накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом
-              в Мурманск.</p>
-          </div>
-        </div>
-      </div>
-      <div class="place">
-        <div class="place__header">
-          <h3 class="place__title">Алтай</h3>
+          <h4 class="place__title">Алтай</h4>
           <div class="place__website">
             <p class="place__url">URL</p>
             <a class="place__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
@@ -145,10 +122,10 @@
               пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
           </div>
         </div>
-      </div>
-      <div class="place">
+      </article>
+      <article class="place">
         <div class="place__header">
-          <h3 class="place__title">Зимний Байкал</h3>
+          <h4 class="place__title">Зимний Байкал</h4>
           <div class="place__website">
             <p class="place__url">URL</p>
             <a class="place__link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
@@ -166,10 +143,10 @@
               «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
           </div>
         </div>
-      </div>
-      <div class="place">
+      </article>
+      <article class="place">
         <div class="place__header">
-          <h3 class="place__title">Карелия</h3>
+          <h4 class="place__title">Карелия</h4>
           <div class="place__website">
             <p class="place__url">URL</p>
             <a class="place__link" href="http://vodlozero.ru/" target="_blank">http://vodlozero.ru/</a>
@@ -186,7 +163,7 @@
               в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
           </div>
         </div>
-      </div>
+      </article>
     </section>
     <section class="cover">
       <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
@@ -197,16 +174,16 @@
     </section>
   </main>
   <footer class="footer">
-    <nav class="menu menu_place_footer">
-      <ul class="menu__links menu__links_place_footer">
-        <li class="menu__list-item menu__list-item_place_footer"><a class="menu__link menu__link_place_footer" href="https://yandex.ru/map" target="_blank">Карты</a></li>
-        <li class="menu__list-item menu__list-item_place_footer"><a class="menu__link menu__link_place_footer" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
-        <li class="menu__list-item menu__list-item_place_footer"><a class="menu__link menu__link_place_footer" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
-        <li class="menu__list-item menu__list-item_place_footer"><a class="menu__link menu__link_place_footer" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
-        <li class="menu__list-item menu__list-item_place_footer"><a class="menu__link menu__link_place_footer" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
+    <nav class="menu">
+      <ul class="menu__links">
+        <li class="menu__list-item"><a class="menu__link" href="https://yandex.ru/map" target="_blank">Карты</a></li>
+        <li class="menu__list-item"><a class="menu__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
+        <li class="menu__list-item"><a class="menu__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
+        <li class="menu__list-item"><a class="menu__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
+        <li class="menu__list-item"><a class="menu__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
       </ul>
-      <p class="footer__copy">© 2021. Игорь Плишкин</p>
     </nav>
+    <p class="footer__copy">© 2021. Игорь Плишкин</p>
   </footer>
 </body>
 

@@ -3,9 +3,3 @@
   line-height: 18px;
   font-weight: 700;
 }
-/* Посмотрите, не влезает третья строчка на разрешении 320px без этих стилей */
-@media screen and (max-width: 325px){
-  .intro__list-item{
-    font-weight: 400;
-  }
-}

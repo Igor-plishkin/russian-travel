@@ -1,8 +1,0 @@
-@media screen and (max-width:760px){
-  .menu__list-item_place_footer{
-    margin-top: 32px;
-  }
-  .menu__list-item_place_footer:first-child{
-    margin-top: 0;
-  }
-}
